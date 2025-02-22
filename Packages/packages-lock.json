@@ -1,10 +1,95 @@
 {
   "dependencies": {
-    "be.elab.outership": {
-      "version": "file:2025_02_18_OuterWildsShip",
+    "be.elab.etoolboxbasicfont": {
+      "version": "https://github.com/EloiStree/2024_03_11_eToolbox_BasicFont.git",
       "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "19c1cee5f91da3bb38fa172d829d761d67d5fc1f"
+    },
+    "be.elab.etoolboxcolordrop": {
+      "version": "https://github.com/EloiStree/2024_03_11_eToolbox_ColorDrop.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "10497e4d226d33f34426355cb2cd80e12c9e33ef"
+    },
+    "be.elab.macrosrt": {
+      "version": "https://github.com/EloiStree/2025_02_17_UnityMacroSRT.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "b39f731d19fbf023088aa3968eaf2a7777caaf6e"
+    },
+    "be.elab.outership": {
+      "version": "https://github.com/EloiStree/2025_02_18_OuterWildsShip.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "4d12a18e545514ecf8d6723deb82aa2d5697c919"
+    },
+    "be.elab.quickfollowit": {
+      "version": "https://github.com/EloiStree/2024_09_16_QuickFollowIt.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "63bc17c111b1bb6c1a06a7528edec148411f0269"
+    },
+    "be.elab.quickgitutility": {
+      "version": "https://github.com/EloiStree/2019_07_21_QuickGitUtility.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "c3c77cff691baffa7fa619299989b8599625ec6b"
+    },
+    "be.elab.syncntploop": {
+      "version": "https://github.com/EloiStree/2025_02_21_InfiniSyncableNtpLoop.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "c08e928928c317295840193a50a13353488e6a10"
+    },
+    "be.elab.tickcollection": {
+      "version": "https://github.com/EloiStree/OpenUMP_TickCollection.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "215f02167052a0ca378257fb373246d6096da921"
+    },
+    "be.elab.timepercent": {
+      "version": "https://github.com/EloiStree/2025_02_17_TimePercentInterface.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "93fe6f9ae4d3820f15d8777d2d4f7a04dfb40dbe"
+    },
+    "be.elab.timepercentbezier": {
+      "version": "https://github.com/EloiStree/2025_02_22_TimePercentInterfaceBezier.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "511f12628173dc7ec412c1152a2b1bcc82b95bee"
+    },
+    "be.elab.unityfetchoffsetntp": {
+      "version": "https://github.com/EloiStree/OpenUPM_UnityFetchOffsetNTP.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "05da7ae458b5488cae4728d4fe52f068548c82ba"
+    },
+    "be.elab.unitypackagefacilitator": {
+      "version": "https://github.com/EloiStree/2019_07_21_UnityPackageFacilitator.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "1d899cc3f5cc59c5f9c51450d2817f7c77e7b553"
+    },
+    "be.elab.watchexecutetime": {
+      "version": "https://github.com/EloiStree/2024_04_18_WatchExecuteTime.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "9590ee303a95dea450a5b1e4a191d7494d54ecf6"
     },
     "com.meta.xr.mrutilitykit": {
       "version": "72.0.0",
@@ -113,7 +198,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
-      "version": "1.8.19",
+      "version": "1.8.18",
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -289,6 +374,22 @@
         "com.unity.searcher": "4.9.2"
       }
     },
+    "com.unity.sysroot": {
+      "version": "2.0.10",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.sysroot.linux-x86_64": {
+      "version": "2.0.9",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.sysroot": "2.0.10"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.test-framework": {
       "version": "1.4.6",
       "depth": 0,
@@ -311,7 +412,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "5.0.0",
+      "version": "3.0.6",
       "depth": 2,
       "source": "builtin",
       "dependencies": {
@@ -327,6 +428,16 @@
         "com.unity.modules.director": "1.0.0",
         "com.unity.modules.animation": "1.0.0",
         "com.unity.modules.particlesystem": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.toolchain.win-x86_64-linux-x86_64": {
+      "version": "2.0.10",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.sysroot": "2.0.10",
+        "com.unity.sysroot.linux-x86_64": "2.0.9"
       },
       "url": "https://packages.unity.com"
     },
@@ -350,7 +461,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.legacyinputhelpers": {
-      "version": "2.1.12",
+      "version": "2.1.11",
       "depth": 1,
       "source": "registry",
       "dependencies": {
