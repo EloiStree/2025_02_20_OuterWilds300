@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "be.elab.boolmono": {
+      "version": "https://github.com/EloiStree/2025_01_23_ToBooleanMono.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d873cb6267de179bc0a1d463638699aa6f29c0b1"
+    },
     "be.elab.etoolboxbasicfont": {
       "version": "https://github.com/EloiStree/2024_03_11_eToolbox_BasicFont.git",
       "depth": 0,
@@ -13,6 +20,27 @@
       "source": "git",
       "dependencies": {},
       "hash": "10497e4d226d33f34426355cb2cd80e12c9e33ef"
+    },
+    "be.elab.explodingfinger": {
+      "version": "https://github.com/EloiStree/2025_01_21_ExplodingFinger.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "cb39957a7568791c8829b4e189f491ee4e8da403"
+    },
+    "be.elab.exportmesh": {
+      "version": "https://github.com/EloiStree/2024_10_18_ExportMeshFilter.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d03ff9e3febf44b0dbb4485004c0bdc972566389"
+    },
+    "be.elab.handsloader": {
+      "version": "https://github.com/EloiStree/2025_01_22_LoadFromHandsDistanceXR.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "cf1d23ac13902054d9c15a557069659e1a429279"
     },
     "be.elab.macrosrt": {
       "version": "https://github.com/EloiStree/2025_02_17_UnityMacroSRT.git",
@@ -28,6 +56,13 @@
       "dependencies": {},
       "hash": "4d12a18e545514ecf8d6723deb82aa2d5697c919"
     },
+    "be.elab.pathtype": {
+      "version": "https://github.com/EloiStree/OpenUPM_PathTypeReadWrite.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "586b79c22947f7623d29d9f46a55f87dccdc657c"
+    },
     "be.elab.quickfollowit": {
       "version": "https://github.com/EloiStree/2024_09_16_QuickFollowIt.git",
       "depth": 0,
@@ -42,12 +77,33 @@
       "dependencies": {},
       "hash": "c3c77cff691baffa7fa619299989b8599625ec6b"
     },
+    "be.elab.relocation": {
+      "version": "https://github.com/EloiStree/2024_10_19_RelocationRotation.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "b5d6937d32f4c543717e4586aa782df0684240fe"
+    },
     "be.elab.syncntploop": {
       "version": "https://github.com/EloiStree/2025_02_21_InfiniSyncableNtpLoop.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
       "hash": "c08e928928c317295840193a50a13353488e6a10"
+    },
+    "be.elab.technobubblegun": {
+      "version": "https://github.com/EloiStree/2025_02_23_BrandonTeamBubbleGun.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "fa435ffc664117074774d20de656d9c780a3172f"
+    },
+    "be.elab.threepointsroom": {
+      "version": "https://github.com/EloiStree/2024_10_18_ThreePointsRoomSample.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "011e8715f11f122c2793ccf38c110e0d44852e82"
     },
     "be.elab.tickcollection": {
       "version": "https://github.com/EloiStree/OpenUMP_TickCollection.git",
@@ -69,6 +125,13 @@
       "source": "git",
       "dependencies": {},
       "hash": "511f12628173dc7ec412c1152a2b1bcc82b95bee"
+    },
+    "be.elab.triangleaction": {
+      "version": "https://github.com/EloiStree/2024_10_17_ThreePointsActions.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d7f6df366cdcd77bc6e0182c68dfc272c437d640"
     },
     "be.elab.unityfetchoffsetntp": {
       "version": "https://github.com/EloiStree/OpenUPM_UnityFetchOffsetNTP.git",

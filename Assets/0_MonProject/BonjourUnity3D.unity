@@ -23696,6 +23696,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: N Minutes Looping Group
       objectReference: {fileID: 0}
+    - target: {fileID: 1835645674833302760, guid: 07f03509e805dc1439361360a067e4e5, type: 3}
+      propertyPath: Priority
+      value: 212
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835645674833302760, guid: 07f03509e805dc1439361360a067e4e5, type: 3}
+      propertyPath: m_Volume
+      value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929111018967950333, guid: 07f03509e805dc1439361360a067e4e5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3275942882623006382, guid: 07f03509e805dc1439361360a067e4e5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
